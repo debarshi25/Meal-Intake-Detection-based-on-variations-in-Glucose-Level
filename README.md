@@ -33,7 +33,22 @@ Five cell arrays:
 
 ##### Steps -
 1. Put .py files in the same directory as meal data.
-2. Run train.py in an IDE (e.g., PyCharm)
+2. Run train.py in an IDE (e.g., PyCharm).
 3. Naive Bayes and Random Forest classifiers will be generated and saved as .pickle.
 3. Run test.py and provide the absolute path of the test set (I have used mealData1.csv as the test set).
 4. The predicted labels will be saved in predictions.csv.
+
+### Part 3
+
+##### Input Description -
+1. Meal Data of 5 subjects.
+2. Amount of carbohydrates in each meal.
+
+##### Output Description -
+1. Feature extraction from Meal data.
+2. Clustering Meal data based on the amount of carbohydrates in each meal (DBSCAN and k-means clustering).
+
+##### Steps -
+1. Put .py files in the same directory as mealData and mealAmountData.
+2. Run train1.py
+3. Run test1.py with test file as argument.
